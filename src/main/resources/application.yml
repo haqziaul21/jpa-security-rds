@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: password
+    url: jdbc:mysql://mysqlsecurity.c2edkzvqjcrg.ap-south-1.rds.amazonaws.com:3306/jpasecurity
+  jpa:
+   show-sql: true
+   hibernate:
+      ddl-auto: create
+   properties:
+      hibernate:
+       dialect: org.hibernate.dialect.MySQL8Dialect
